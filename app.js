@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 require('dotenv').config()
 
-const mongoConnectionString = process.env.DATABASE_URL
+const mongoConnectionString = "mongodb://localhost:27017/<your-db-name>" // Your mongodb connection string goes here
 
 mongoose.connect(mongoConnectionString, {
     useNewUrlParser: true, 
