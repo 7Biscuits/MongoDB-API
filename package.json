@@ -1,0 +1,13 @@
+{
+  "name": "MongoDbAPi",
+  "version": "1.0.0",
+  "description": "A rest api to store data into mongoDB database",
+  "main": "app.js",
+  "author": "Rudransh",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express.js": "^1.0.0",
+    "mongoose": "^6.6.5"
+  }
+}
